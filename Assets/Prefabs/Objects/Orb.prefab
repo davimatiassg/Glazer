@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 199164318774201057}
   - component: {fileID: 199164318774201059}
   - component: {fileID: 1724822531}
-  - component: {fileID: 1724822538}
   m_Layer: 0
   m_Name: Orb
   m_TagString: Untagged
@@ -51,7 +50,7 @@ MonoBehaviour:
   destination: {fileID: 0}
   acel: 2
   rotspeed: 3
-  orbitrange: 0.5
+  orbitrange: 1
 --- !u!33 &199164318774201058
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -116,22 +115,22 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
-  m_LightVolumeOpacity: 0.098
-  m_ApplyToSortingLayers: 00000000
+  m_Color: {r: 0.93627876, g: 1, b: 0.5801887, a: 1}
+  m_Intensity: 2
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: a9e1aa1d00000000
   m_LightCookieSprite: {fileID: 21300000, guid: 5f1c60a32e27f7f48a78665b14fdb404,
     type: 3}
   m_UseNormalMap: 1
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 1
-  m_ShadowIntensity: 1
+  m_ShadowIntensity: 0.652
   m_ShadowVolumeIntensity: 0.904
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0.5
-  m_PointLightOuterRadius: 1
-  m_PointLightDistance: 0
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 8
+  m_PointLightDistance: 20
   m_PointLightQuality: 0
   m_ShapeLightParametricSides: 11
   m_ShapeLightParametricAngleOffset: 0
@@ -159,29 +158,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1724822538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199164318774201063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_ApplyToSortingLayers: 00000000
-  m_ShapePath:
-  - {x: -0.33123887, y: -0.3312385, z: 0}
-  - {x: 0.3466543, y: -0.3312385, z: 0}
-  - {x: 0.39290214, y: 0.34665525, z: 0}
-  - {x: -0.33123887, y: 0.43914974, z: 0}
-  m_ShapePathHash: -1106857351
-  m_Mesh: {fileID: 0}
-  m_InstanceId: -5236
