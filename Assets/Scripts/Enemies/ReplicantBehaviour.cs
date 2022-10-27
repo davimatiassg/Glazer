@@ -10,6 +10,7 @@ public class ReplicantBehaviour : DefaultEnemy
 	private int routeIndex = 0;
 	private float spdBUFF = 1;
 	private Vector2 destination;
+	private Color SigilColor = Color.green;
 	[SerializeField] private float atkRange = 1;
 	[SerializeField] private List<Vector2> routePoints;
 
@@ -25,16 +26,20 @@ public class ReplicantBehaviour : DefaultEnemy
 				{
 					trigered = false;
 					isMOV = false;
+					SetColor(_col)
 				}
 				if(trigered == false && distance.sqrMagnitude <= sqrV)
 				{
-					trigered = true;
-
+					if(SetTriggered() == true)
+					{
+						trigered = true;
+					}
 				}
 
 				
 				if(trigered == true)
 				{
+					
 					velR = Chase();
 					if(distance.magnitude <= atkRange)
 					{

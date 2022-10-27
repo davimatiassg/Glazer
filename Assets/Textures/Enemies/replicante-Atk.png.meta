@@ -78,6 +78,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -87,8 +88,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -109,6 +110,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -542,6 +545,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      replicante-Atk_11: 827132976115167085
+      replicante-Atk_10: 1191111210053874622
+      replicante-Atk_13: 2178105186994212638
+      replicante-Atk_16: 5210121512093534981
+      replicante-Atk_17: 7564585954929482956
+      replicante-Atk_6: -5097028273947197750
+      replicante-Atk_7: -2332338845095204857
+      replicante-Atk_4: 2621963390005891808
+      replicante-Atk_5: 2447238484930885521
+      replicante-Atk_0: -192445546195196829
+      replicante-Atk_1: -3611272108811495980
+      replicante-Atk_9: 5234555130351946283
+      replicante-Atk_2: 3810729302688841202
+      replicante-Atk_12: 8937633928652693404
+      replicante-Atk_14: 4460536758903623726
+      replicante-Atk_15: 4655239866009374387
+      replicante-Atk_3: 7906253255502317903
+      replicante-Atk_8: 6437146634484620487
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

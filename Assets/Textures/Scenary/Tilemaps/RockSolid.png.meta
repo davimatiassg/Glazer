@@ -30,6 +30,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -39,8 +40,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -61,6 +62,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -1000,6 +1003,49 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: 51073eede8010774c9d8c3bc9013939d, type: 3}
       name: _NormalMap
+    nameFileIdTable:
+      RockSolid_22: -5575674258891798411
+      RockSolid_3: -6828931478312094509
+      RockSolid_33: 5764896141439620338
+      RockSolid_42: -7082132193618956932
+      RockSolid_39: 6799453622264184896
+      RockSolid_25: -416892826756843713
+      RockSolid_45: -6360914038826729803
+      RockSolid_50: -2763452355200915292
+      RockSolid_53: 3192331102750538644
+      RockSolid_2: 9038059408622786457
+      RockSolid_5: 2042924607982798140
+      RockSolid_13: 3028641239108784751
+      RockSolid_4: -1123217570937058123
+      RockSolid_23: -2250084308496745260
+      RockSolid_29: 2757559542021439865
+      RockSolid_35: -8671443639703303256
+      RockSolid_1: 4549406699153938022
+      RockSolid_32: -8749489579792226778
+      RockSolid_11: -4997953084772739138
+      RockSolid_7: 6226878879501175076
+      RockSolid_40: -5940884569792084662
+      RockSolid_14: -635881038876757654
+      RockSolid_21: 1927453044202569036
+      RockSolid_37: -6626632853329475444
+      RockSolid_31: 6714826094816568118
+      RockSolid_6: -2971203142702036601
+      RockSolid_36: 7821947719823827260
+      RockSolid_24: 6550488517892807055
+      RockSolid_0: -5980125802019139113
+      RockSolid_19: -5898121409747818997
+      RockSolid_9: 2343523343146997428
+      RockSolid_34: 4672736479201464
+      RockSolid_20: -1663114621521538918
+      RockSolid_10: -6271499950092070447
+      RockSolid_15: 7306966559202398112
+      RockSolid_16: -353096602140093353
+      RockSolid_12: -6931912131052681860
+      RockSolid_8: -4128163742234740147
+      RockSolid_18: 4359383485725549645
+      RockSolid_17: -1738059111419535143
+      RockSolid_30: 3392157575207267001
+      RockSolid_26: 8902446565658075829
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -153,6 +153,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -162,8 +163,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -184,6 +185,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -1142,6 +1145,50 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      normalmap_14: 5524365479406178691
+      normalmap_27: -1013600731883907714
+      normalmap_38: -6336100147404372013
+      normalmap_24: -1536020854939780280
+      normalmap_23: -3059009595428451144
+      normalmap_18: 653969546225810020
+      normalmap_29: -8428805370635567762
+      normalmap_35: 1859204439234573200
+      normalmap_6: 2075417386171120498
+      normalmap_5: -7758742890322603817
+      normalmap_16: -1101510038450474524
+      normalmap_32: -5769204696585455273
+      normalmap_15: 4498565661345697438
+      normalmap_42: 3813808063431423361
+      normalmap_36: 7728020111436040656
+      normalmap_26: 8455619763326607629
+      normalmap_19: 5325185439685027783
+      normalmap_9: -2079377421512590302
+      normalmap_37: 8925026611854302605
+      normalmap_31: 3067869091472597877
+      normalmap_30: 9077397355663939639
+      normalmap_41: 8311964578342780413
+      normalmap_20: 2742281351491478282
+      normalmap_22: -8920872716620311082
+      normalmap_21: 1924948085718680341
+      normalmap_11: 6038041589012220574
+      normalmap_13: -9048897838940407330
+      normalmap_33: 8292246688352303771
+      normalmap_28: -5999021815493654611
+      normalmap_3: 8854697751540540790
+      normalmap_34: 7877736206302568536
+      normalmap_2: 7719667659312858701
+      normalmap_7: 6186102698114066647
+      normalmap_4: 502257463620815352
+      normalmap_12: 7223637796140384881
+      normalmap_17: 6921843551535217221
+      normalmap_39: 1735361501454340797
+      normalmap_0: 4192856262646511499
+      normalmap_1: -7429389546364826634
+      normalmap_8: -8369055297092426947
+      normalmap_10: 337948880174944818
+      normalmap_25: -356178795060597074
+      normalmap_40: -8195333462211396528
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

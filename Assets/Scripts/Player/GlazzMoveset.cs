@@ -29,7 +29,7 @@ public class GlazzMoveset : MonoBehaviour, HitableObj
 
     	//direção do olhar e estado(animação)
     private Vector2 LookDirection = Vector2.down;
-    private float direction; //0 = Down, 1 = Right, 2 = Up, 3 = Left.
+    [SerializeField] private float direction; //0 = Down, 1 = Right, 2 = Up, 3 = Left.
     public int state = 0; //0 = Idle, 1 = Moving, 2 = Running, 3 = Melee atk, 4 = Magic atk, 5 = Dashing, 6 = stuned, 7 = cutscene.
 
     	//combate e vida
@@ -142,7 +142,8 @@ public class GlazzMoveset : MonoBehaviour, HitableObj
     	if(v != Vector2.zero)
     	{
     		LookDirection = v;
-    		direction = ((2 - x)*Mathf.Abs(x) + (1 + y)*Mathf.Abs(y))*(1-Mathf.Abs(x*y)) + ((x*y/2 + 2-x)*Mathf.Abs(x*y));
+            //direction = (2 + x*(-1+ (y))); 
+    		direction = 2*((2 - x)*Mathf.Abs(x) + (1 + y)*Mathf.Abs(y))*(1-Mathf.Abs(x*y)) + 2*((x*y/2 + 2-x)*Mathf.Abs(x*y));
     		state = 1;
     		if(inPut.GetButton(BindableActions.Run))
 	    	{
@@ -155,7 +156,7 @@ public class GlazzMoveset : MonoBehaviour, HitableObj
 	    		//state = 5
 	    		speed = speed*5;
 	    	}
-	    	//0 = Down, 1 = Right, 2 = Up, 3 = Left.     		direction = (2 + x*(-1+ (y/2))); 
+	    	//0 = Down, 1 = Right, 2 = Up, 3 = Left.     		
 	    	
     	}
     	else

@@ -123,6 +123,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -132,8 +133,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -154,6 +155,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -904,6 +907,40 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: fc6f4430b41e5f1438071f1dbba917f7, type: 3}
       name: _NormalMap
+    nameFileIdTable:
+      RuneStone_16: -8181324989419803158
+      RuneStone_20: 654137395966315745
+      RuneStone_8: 8365487524547745309
+      RuneStone_17: 7013543433976781775
+      RuneStone_18: -5315365365204194564
+      RuneStone_36: -6003522967443517729
+      RuneStone_24: -4834136539503152765
+      RuneStone_7: 3609136534420149790
+      RuneStone_26: -5409872319699623777
+      RuneStone_6: 8005240216827611437
+      RuneStone_28: -4155721349944442475
+      RuneStone_4: 5259127614190716955
+      RuneStone_1: 437269068319117797
+      RuneStone_15: 4377806952756716439
+      RuneStone_13: 6345902686916318020
+      RuneStone_32: -1329664748024468751
+      RuneStone_11: 3585041799634667999
+      RuneStone_27: 7237080422975052422
+      RuneStone_40: -5171640711267595895
+      RuneStone_22: 1815380452519280093
+      RuneStone_0: 2374090915530009121
+      RuneStone_12: -4441358916379021284
+      RuneStone_2: -2410597328197579001
+      RuneStone_3: -2059433866078506207
+      RuneStone_5: -7661357296723473719
+      RuneStone_19: -6967055107677162097
+      RuneStone_34: 7570071620795237482
+      RuneStone_30: 7150532326099153488
+      RuneStone_23: 2731090515712322234
+      RuneStone_25: 4099587161578958492
+      RuneStone_42: -4667859991308641058
+      RuneStone_9: 8780499080800389448
+      RuneStone_21: -8527902141860573495
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

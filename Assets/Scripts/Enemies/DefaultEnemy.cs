@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DefaultEnemy : MonoBehaviour, HitableObj
+public class DefaultEnemy : ColorSwaper, HitableObj
 {
     [SerializeField] protected int life = 50;
     [SerializeField] protected Transform trs;
